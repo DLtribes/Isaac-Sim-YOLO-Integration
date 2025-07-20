@@ -59,10 +59,10 @@ Step 2: Stream via ROS
 These images are streamed out of the simulator using ROS as image messages, making them accessible to external processes.
 
 Step 3: Image Processing for YOLO
-The streamed images are converted into a format compatible with the YOLOv8 model (typically NumPy arrays or OpenCV images).
+The streamed images are converted into a format compatible with the YOLOv11 model (typically NumPy arrays or OpenCV images).
 
 Step 4: Object Detection (YOLOv11)
-YOLOv8 processes each frame and detects plastic bottles present in the scene. Each detection outputs a label, confidence, and bounding box.
+YOLOv11 processes each frame and detects plastic bottles present in the scene. Each detection outputs a label, confidence, and bounding box.
 
 Step 5: Detection Signal via ROS
 If a "bottle" is detected, a detection signal (label info) is published to a ROS topic for downstream motion control.

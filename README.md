@@ -24,7 +24,7 @@ The robot performs **autonomous pick-up actions** only when the YOLO model ident
 |---------------------|----------------------------------------------------------------------|
 | **Isaac Sim**        | Simulates the robot, scene, and camera                               |
 | **Franka Robot**     | Executes pick-and-place based on predefined joint targets            |
-| **YOLOv8**           | Detects objects in simulated camera feed                             |
+| **YOLOv11**           | Detects objects in simulated camera feed                             |
 | **ROS 2**            | Handles messaging between detection and motion systems               |
 | **cv_bridge**        | Converts ROS images into OpenCV format for model input               |
 
@@ -61,7 +61,7 @@ These images are streamed out of the simulator using ROS as image messages, maki
 Step 3: Image Processing for YOLO
 The streamed images are converted into a format compatible with the YOLOv8 model (typically NumPy arrays or OpenCV images).
 
-Step 4: Object Detection (YOLOv8)
+Step 4: Object Detection (YOLOv11)
 YOLOv8 processes each frame and detects plastic bottles present in the scene. Each detection outputs a label, confidence, and bounding box.
 
 Step 5: Detection Signal via ROS

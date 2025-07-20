@@ -1,8 +1,9 @@
 # Digital Twin for Vision-Based Robotic Arm Manipulation
 
+![Robot Arm](icon.png)
+This repository showcases a digital twin system for simulating and controlling a robotic arm (Franka Emika Panda) to detect and pick up plastic bottles in a virtual environment. The system integrates Isaac Sim for high-fidelity simulation, YOLOv11 for object detection, SAM (Segment Anything Model) for segmentation, MoveIt 2 for motion planning, and ROS 2 as the communication middleware.
 
-This repository demonstrates **digital twin system** where the **robotic arm (Franka Emika Panda)** detects and picks up **plastic bottles** in a simulated Isaac Sim environment using a **YOLOv11 detection model** and **ROS 2** middleware.
-
+The goal is to build a scalable foundation for vision-based robotic manipulation with a focus on waste sorting and environmental automation.
 ---
 
 ## 🎯Objective
@@ -18,15 +19,19 @@ The robot performs **autonomous pick-up actions** only when the YOLO model ident
 
 ---
 
-## 🧠 System Overview
+## 🛠️ Tech Stack Overview
 
-| Component            | Role                                                                 |
-|---------------------|----------------------------------------------------------------------|
-| **Isaac Sim**        | Simulates the robot, scene, and camera                               |
-| **Franka Robot**     | Executes pick-and-place based on predefined joint targets            |
-| **YOLOv11**           | Detects objects in simulated camera feed                             |
-| **ROS 2**            | Handles messaging between detection and motion systems               |
-| **cv_bridge**        | Converts ROS images into OpenCV format for model input               |
+| **Component**          | **Role**                                                                 |
+|------------------------|--------------------------------------------------------------------------|
+| **Isaac Sim**          | Simulates the robot, physics-based environment, camera, and sensors      |
+| **Franka Emika Panda** | Performs pick-and-place operations using joint-level commands            |
+| **YOLOv11**            | Detects plastic bottles from the simulated camera feed                   |
+| **SAM (Segment Anything)** | Segments objects to improve visual understanding and manipulation  |
+| **MoveIt 2**           | Plans and executes robotic arm trajectories for picking and placing      |
+| **ROS 2**              | Acts as middleware to coordinate detection, planning, and control        |
+| **cv_bridge**          | Converts ROS 2 image messages to OpenCV format for YOLO/SAM processing   |
+| **Python**             | Core scripting language for integrating perception, planning, and control|
+| **Rviz2 / Isaac UI**   | Visualizes robot states, environment, and sensor data                     |
 
 ---
 ## 🧱🧊 Simulation Scene & Layout

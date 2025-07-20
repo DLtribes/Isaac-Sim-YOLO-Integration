@@ -5,7 +5,7 @@ This repository demonstrates **digital twin system** where the **robotic arm (Fr
 
 ---
 
-## 🎯 Project Objective
+## 🎯Objective
 
 To build a bridge between **perception** and **robotic action** by integrating:
 
@@ -29,8 +29,28 @@ The robot performs **autonomous pick-up actions** only when the YOLO model ident
 | **cv_bridge**        | Converts ROS images into OpenCV format for model input               |
 
 ---
+## 🧱🧊 Simulation Scene & Layout
+The scene contains a quad (plane) with 5 plastic bottles and cubes arranged on it.
 
-##Camera Image Flow (ROS + YOLO) — 🔬 In Detail
+These objects are static (i.e., not moving) and spawned at predefined coordinates inside Isaac Sim.
+
+The robot arm (Franka Emika Panda) is placed near the quad with an RGB camera mounted on its wrist for dynamic perception.
+
+## 🗺️ Bottle Positions & Predefined Joints
+The positions of the 5 bottles are known in advance.
+
+Instead of computing inverse kinematics in real-time, the project uses a predefined joint configuration for each bottle.
+
+Each configuration consists of specific joint angles that allow the arm to reach a particular bottle's location.
+
+These joint values are stored in a JSON file where:
+
+Each key represents a bottle ID or label (e.g., "bottle_1")
+
+Each value contains the list of 7 joint angles needed to move to that bottle.
+
+
+## Camera Image Flow (ROS + YOLO) — 🔬 In Detail
 
 Step 1: Capture Image from Isaac Sim
 The RGB camera mounted on the robotic arm captures real-time images of the environment inside Isaac Sim.

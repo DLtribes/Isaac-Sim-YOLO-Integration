@@ -9,7 +9,7 @@ This repository demonstrates **digital twin system** where the **robotic arm (Fr
 
 To build a bridge between **perception** and **robotic action** by integrating:
 
-- ✅ **YOLO11-OBB object detection** (vision)
+- ✅ **YOLO11-s object detection** (vision)
 - ✅ **Isaac Sim robot simulation** (digital twin)
 - ✅ **ROS 2** for communication
 - ✅ **Predefined motion sequences** using joint control

@@ -1,4 +1,4 @@
-# Isaac-Sim-YOLO-Integration
+# Digital Twin for Vision-Based Robotic Arm Manipulation
 
 
 This repository demonstrates **digital twin system** where the **robotic arm (Franka Emika Panda)** detects and picks up **plastic bottles** in a simulated Isaac Sim environment using a **YOLOv11 detection model** and **ROS 2** middleware.

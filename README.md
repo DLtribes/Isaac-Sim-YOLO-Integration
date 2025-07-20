@@ -9,7 +9,7 @@ This repository demonstrates **digital twin system** where the **robotic arm (Fr
 
 To build a bridge between **perception** and **robotic action** by integrating:
 
-- ✅ **YOLO11-s object detection** (vision)
+- ✅ **YOLO11s object detection** (vision)
 - ✅ **Isaac Sim robot simulation** (digital twin)
 - ✅ **ROS 2** for communication
 - ✅ **Predefined motion sequences** using joint control
@@ -59,10 +59,10 @@ Step 2: Stream via ROS
 These images are streamed out of the simulator using ROS as image messages, making them accessible to external processes.
 
 Step 3: Image Processing for YOLO
-The streamed images are converted into a format compatible with the YOLOv11 model (typically NumPy arrays or OpenCV images).
+The streamed images are converted into a format compatible with the YOLO11s model (typically NumPy arrays or OpenCV images).
 
-Step 4: Object Detection (YOLOv11)
-YOLOv11 processes each frame and detects plastic bottles present in the scene. Each detection outputs a label, confidence, and bounding box.
+Step 4: Object Detection (YOLO)
+YOLO11s processes each frame and detects plastic bottles present in the scene. Each detection outputs a label, confidence, and bounding box.
 
 Step 5: Detection Signal via ROS
 If a "bottle" is detected, a detection signal (label info) is published to a ROS topic for downstream motion control.

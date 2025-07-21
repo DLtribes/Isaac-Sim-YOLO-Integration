@@ -1,1 +1,0 @@
-/root/ws_moveit/build/moveit_resources_fanuc_description/ament_cmake_environment_hooks/local_setup.zsh

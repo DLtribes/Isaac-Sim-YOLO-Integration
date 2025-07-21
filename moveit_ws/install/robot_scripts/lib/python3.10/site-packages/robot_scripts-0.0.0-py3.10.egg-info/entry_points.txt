@@ -1,4 +1,0 @@
-[console_scripts]
-move_on_scissors = robot_scripts.move_on_scissors:main
-move_to_joint_position = robot_scripts.move_to_joint_position:main
-

@@ -1,1 +1,0 @@
-/root/ws_moveit/build/moveit_resources_pr2_description/ament_cmake_environment_hooks/local_setup.zsh

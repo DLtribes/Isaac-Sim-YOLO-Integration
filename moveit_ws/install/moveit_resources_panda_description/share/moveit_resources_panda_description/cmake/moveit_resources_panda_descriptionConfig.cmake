@@ -1,1 +1,0 @@
-/root/ws_moveit/build/moveit_resources_panda_description/ament_cmake_core/moveit_resources_panda_descriptionConfig.cmake

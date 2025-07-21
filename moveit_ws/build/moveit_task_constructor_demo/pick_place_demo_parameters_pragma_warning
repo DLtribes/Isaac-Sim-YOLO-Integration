@@ -1,0 +1,1 @@
+#pragma message("#include \"pick_place_demo_parameters.hpp\" is deprecated. Use #include <moveit_task_constructor_demo/pick_place_demo_parameters.hpp> instead.")

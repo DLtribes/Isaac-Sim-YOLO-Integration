@@ -1,0 +1,27 @@
+[0.030s] Invoking command in '/root/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ws_moveit/install/moveit_configs_utils:/root/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /root/ws_moveit/src/srdfdom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ws_moveit/install/srdfdom
+[0.289s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.289s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.289s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.289s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.289s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.289s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.350s] -- Locale nl_NL not available. Locale test will not be meaningful.
+[0.350s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.357s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.373s] -- Configuring done
+[0.379s] -- Generating done
+[0.382s] -- Build files have been written to: /root/ws_moveit/build/srdfdom
+[0.384s] Invoked command in '/root/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ws_moveit/install/moveit_configs_utils:/root/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /root/ws_moveit/src/srdfdom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ws_moveit/install/srdfdom
+[0.385s] Invoking command in '/root/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ws_moveit/install/moveit_configs_utils:/root/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /root/ws_moveit/build/srdfdom -- -j20 -l20
+[0.408s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.408s] [35m[1mConsolidate compiler generated dependencies of target srdfdom[0m
+[0.409s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.414s] failed to create symbolic link '/root/ws_moveit/build/srdfdom/ament_cmake_python/srdfdom/srdfdom' because existing path cannot be removed: Is a directory
+[0.415s] [ 18%] Built target gtest_main
+[0.415s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_srdfdom.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_srdfdom] Error 1
+[0.415s] gmake[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/ament_cmake_python_symlink_srdfdom.dir/all] Error 2
+[0.415s] gmake[1]: *** Waiting for unfinished jobs....
+[0.419s] [ 45%] Built target srdfdom
+[0.421s] [ 63%] Built target gtest
+[0.422s] gmake: *** [Makefile:146: all] Error 2
+[0.439s] Invoked command in '/root/ws_moveit/build/srdfdom' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ws_moveit/install/moveit_configs_utils:/root/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /root/ws_moveit/build/srdfdom -- -j20 -l20

@@ -1,0 +1,3 @@
+[console_scripts]
+bridge_node = joint_trajectory_bridge.bridge_node:main
+

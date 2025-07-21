@@ -1,0 +1,10 @@
+/root/ws_moveit/build/moveit_simple_controller_manager/CMakeFiles/uninstall.dir
+/root/ws_moveit/build/moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager_uninstall.dir
+/root/ws_moveit/build/moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir
+/root/ws_moveit/build/moveit_simple_controller_manager/CMakeFiles/test.dir
+/root/ws_moveit/build/moveit_simple_controller_manager/CMakeFiles/edit_cache.dir
+/root/ws_moveit/build/moveit_simple_controller_manager/CMakeFiles/rebuild_cache.dir
+/root/ws_moveit/build/moveit_simple_controller_manager/CMakeFiles/list_install_components.dir
+/root/ws_moveit/build/moveit_simple_controller_manager/CMakeFiles/install.dir
+/root/ws_moveit/build/moveit_simple_controller_manager/CMakeFiles/install/local.dir
+/root/ws_moveit/build/moveit_simple_controller_manager/CMakeFiles/install/strip.dir

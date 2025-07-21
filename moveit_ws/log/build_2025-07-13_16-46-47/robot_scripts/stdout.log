@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/robot_scripts/robot_scripts.egg-info
+writing ../../build/robot_scripts/robot_scripts.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_scripts/robot_scripts.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_scripts/robot_scripts.egg-info/entry_points.txt
+writing requirements to ../../build/robot_scripts/robot_scripts.egg-info/requires.txt
+writing top-level names to ../../build/robot_scripts/robot_scripts.egg-info/top_level.txt
+writing manifest file '../../build/robot_scripts/robot_scripts.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_scripts/robot_scripts.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_scripts/robot_scripts.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ws_moveit/build/robot_scripts/build
+creating /root/ws_moveit/build/robot_scripts/build/lib
+creating /root/ws_moveit/build/robot_scripts/build/lib/robot_scripts
+copying robot_scripts/move_to_joint_position.py -> /root/ws_moveit/build/robot_scripts/build/lib/robot_scripts
+copying robot_scripts/__init__.py -> /root/ws_moveit/build/robot_scripts/build/lib/robot_scripts
+running install
+running install_lib
+creating /root/ws_moveit/install/robot_scripts/lib/python3.10/site-packages/robot_scripts
+copying /root/ws_moveit/build/robot_scripts/build/lib/robot_scripts/move_to_joint_position.py -> /root/ws_moveit/install/robot_scripts/lib/python3.10/site-packages/robot_scripts
+copying /root/ws_moveit/build/robot_scripts/build/lib/robot_scripts/__init__.py -> /root/ws_moveit/install/robot_scripts/lib/python3.10/site-packages/robot_scripts
+byte-compiling /root/ws_moveit/install/robot_scripts/lib/python3.10/site-packages/robot_scripts/move_to_joint_position.py to move_to_joint_position.cpython-310.pyc
+byte-compiling /root/ws_moveit/install/robot_scripts/lib/python3.10/site-packages/robot_scripts/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying package.xml -> /root/ws_moveit/install/robot_scripts/share/robot_scripts
+running install_egg_info
+Copying ../../build/robot_scripts/robot_scripts.egg-info to /root/ws_moveit/install/robot_scripts/lib/python3.10/site-packages/robot_scripts-0.0.0-py3.10.egg-info
+running install_scripts
+Installing move_to_joint_position script to /root/ws_moveit/install/robot_scripts/lib/robot_scripts
+writing list of installed files to '/root/ws_moveit/build/robot_scripts/install.log'

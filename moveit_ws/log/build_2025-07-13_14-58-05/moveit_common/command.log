@@ -1,0 +1,6 @@
+Invoking command in '/root/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ws_moveit/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/root/ws_moveit/install/moveit_common
+Invoked command in '/root/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ws_moveit/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/root/ws_moveit/install/moveit_common
+Invoking command in '/root/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ws_moveit/build/moveit_common
+Invoked command in '/root/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ws_moveit/build/moveit_common
+Invoking command in '/root/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ws_moveit/build/moveit_common
+Invoked command in '/root/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ws_moveit/build/moveit_common

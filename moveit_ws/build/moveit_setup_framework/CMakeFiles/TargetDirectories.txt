@@ -1,0 +1,10 @@
+/root/ws_moveit/build/moveit_setup_framework/CMakeFiles/uninstall.dir
+/root/ws_moveit/build/moveit_setup_framework/CMakeFiles/moveit_setup_framework_uninstall.dir
+/root/ws_moveit/build/moveit_setup_framework/CMakeFiles/moveit_setup_framework.dir
+/root/ws_moveit/build/moveit_setup_framework/CMakeFiles/test.dir
+/root/ws_moveit/build/moveit_setup_framework/CMakeFiles/edit_cache.dir
+/root/ws_moveit/build/moveit_setup_framework/CMakeFiles/rebuild_cache.dir
+/root/ws_moveit/build/moveit_setup_framework/CMakeFiles/list_install_components.dir
+/root/ws_moveit/build/moveit_setup_framework/CMakeFiles/install.dir
+/root/ws_moveit/build/moveit_setup_framework/CMakeFiles/install/local.dir
+/root/ws_moveit/build/moveit_setup_framework/CMakeFiles/install/strip.dir

@@ -1,0 +1,25 @@
+[0.325s] Invoking command in '/root/ws_moveit/src/robot_scripts': PYTHONPATH=/root/ws_moveit/build/robot_scripts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws_moveit/install/robot_scripts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_scripts build --build-base /root/ws_moveit/build/robot_scripts/build install --record /root/ws_moveit/build/robot_scripts/install.log --single-version-externally-managed install_data
+[0.431s] running egg_info
+[0.431s] writing ../../build/robot_scripts/robot_scripts.egg-info/PKG-INFO
+[0.431s] writing dependency_links to ../../build/robot_scripts/robot_scripts.egg-info/dependency_links.txt
+[0.431s] writing entry points to ../../build/robot_scripts/robot_scripts.egg-info/entry_points.txt
+[0.431s] writing requirements to ../../build/robot_scripts/robot_scripts.egg-info/requires.txt
+[0.431s] writing top-level names to ../../build/robot_scripts/robot_scripts.egg-info/top_level.txt
+[0.432s] reading manifest file '../../build/robot_scripts/robot_scripts.egg-info/SOURCES.txt'
+[0.432s] writing manifest file '../../build/robot_scripts/robot_scripts.egg-info/SOURCES.txt'
+[0.432s] running build
+[0.432s] running build_py
+[0.432s] copying robot_scripts/move_on_scissors.py -> /root/ws_moveit/build/robot_scripts/build/lib/robot_scripts
+[0.432s] running install
+[0.432s] running install_lib
+[0.433s] copying /root/ws_moveit/build/robot_scripts/build/lib/robot_scripts/move_on_scissors.py -> /root/ws_moveit/install/robot_scripts/lib/python3.10/site-packages/robot_scripts
+[0.433s] byte-compiling /root/ws_moveit/install/robot_scripts/lib/python3.10/site-packages/robot_scripts/move_on_scissors.py to move_on_scissors.cpython-310.pyc
+[0.433s] running install_data
+[0.433s] running install_egg_info
+[0.434s] removing '/root/ws_moveit/install/robot_scripts/lib/python3.10/site-packages/robot_scripts-0.0.0-py3.10.egg-info' (and everything under it)
+[0.434s] Copying ../../build/robot_scripts/robot_scripts.egg-info to /root/ws_moveit/install/robot_scripts/lib/python3.10/site-packages/robot_scripts-0.0.0-py3.10.egg-info
+[0.435s] running install_scripts
+[0.446s] Installing move_on_scissors script to /root/ws_moveit/install/robot_scripts/lib/robot_scripts
+[0.446s] Installing move_to_joint_position script to /root/ws_moveit/install/robot_scripts/lib/robot_scripts
+[0.446s] writing list of installed files to '/root/ws_moveit/build/robot_scripts/install.log'
+[0.456s] Invoked command in '/root/ws_moveit/src/robot_scripts' returned '0': PYTHONPATH=/root/ws_moveit/build/robot_scripts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws_moveit/install/robot_scripts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_scripts build --build-base /root/ws_moveit/build/robot_scripts/build install --record /root/ws_moveit/build/robot_scripts/install.log --single-version-externally-managed install_data

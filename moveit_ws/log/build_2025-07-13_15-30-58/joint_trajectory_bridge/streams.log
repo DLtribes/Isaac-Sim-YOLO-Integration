@@ -1,0 +1,21 @@
+[0.323s] Invoking command in '/root/ws_moveit/src/joint_trajectory_bridge': PYTHONPATH=/root/ws_moveit/build/joint_trajectory_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws_moveit/install/joint_trajectory_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joint_trajectory_bridge build --build-base /root/ws_moveit/build/joint_trajectory_bridge/build install --record /root/ws_moveit/build/joint_trajectory_bridge/install.log --single-version-externally-managed install_data
+[0.430s] running egg_info
+[0.431s] writing ../../build/joint_trajectory_bridge/joint_trajectory_bridge.egg-info/PKG-INFO
+[0.431s] writing dependency_links to ../../build/joint_trajectory_bridge/joint_trajectory_bridge.egg-info/dependency_links.txt
+[0.431s] writing entry points to ../../build/joint_trajectory_bridge/joint_trajectory_bridge.egg-info/entry_points.txt
+[0.431s] writing requirements to ../../build/joint_trajectory_bridge/joint_trajectory_bridge.egg-info/requires.txt
+[0.431s] writing top-level names to ../../build/joint_trajectory_bridge/joint_trajectory_bridge.egg-info/top_level.txt
+[0.432s] reading manifest file '../../build/joint_trajectory_bridge/joint_trajectory_bridge.egg-info/SOURCES.txt'
+[0.432s] writing manifest file '../../build/joint_trajectory_bridge/joint_trajectory_bridge.egg-info/SOURCES.txt'
+[0.432s] running build
+[0.432s] running build_py
+[0.432s] running install
+[0.432s] running install_lib
+[0.433s] running install_data
+[0.433s] running install_egg_info
+[0.434s] removing '/root/ws_moveit/install/joint_trajectory_bridge/lib/python3.10/site-packages/joint_trajectory_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[0.434s] Copying ../../build/joint_trajectory_bridge/joint_trajectory_bridge.egg-info to /root/ws_moveit/install/joint_trajectory_bridge/lib/python3.10/site-packages/joint_trajectory_bridge-0.0.0-py3.10.egg-info
+[0.434s] running install_scripts
+[0.445s] Installing bridge_node script to /root/ws_moveit/install/joint_trajectory_bridge/lib/joint_trajectory_bridge
+[0.445s] writing list of installed files to '/root/ws_moveit/build/joint_trajectory_bridge/install.log'
+[0.456s] Invoked command in '/root/ws_moveit/src/joint_trajectory_bridge' returned '0': PYTHONPATH=/root/ws_moveit/build/joint_trajectory_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws_moveit/install/joint_trajectory_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joint_trajectory_bridge build --build-base /root/ws_moveit/build/joint_trajectory_bridge/build install --record /root/ws_moveit/build/joint_trajectory_bridge/install.log --single-version-externally-managed install_data

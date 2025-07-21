@@ -1,0 +1,6 @@
+Invoking command in '/root/ws_moveit/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_INSTALL_PREFIX=/root/ws_moveit/install/moveit_resources_prbt_support
+Invoked command in '/root/ws_moveit/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_INSTALL_PREFIX=/root/ws_moveit/install/moveit_resources_prbt_support
+Invoking command in '/root/ws_moveit/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ws_moveit/build/moveit_resources_prbt_support
+Invoked command in '/root/ws_moveit/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ws_moveit/build/moveit_resources_prbt_support
+Invoking command in '/root/ws_moveit/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ws_moveit/build/moveit_resources_prbt_support
+Invoked command in '/root/ws_moveit/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ws_moveit/build/moveit_resources_prbt_support

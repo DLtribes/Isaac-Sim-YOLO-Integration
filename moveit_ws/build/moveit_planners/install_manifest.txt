@@ -1,0 +1,15 @@
+/root/ws_moveit/install/moveit_planners/share/ament_index/resource_index/package_run_dependencies/moveit_planners
+/root/ws_moveit/install/moveit_planners/share/ament_index/resource_index/parent_prefix_path/moveit_planners
+/root/ws_moveit/install/moveit_planners/share/moveit_planners/environment/ament_prefix_path.sh
+/root/ws_moveit/install/moveit_planners/share/moveit_planners/environment/ament_prefix_path.dsv
+/root/ws_moveit/install/moveit_planners/share/moveit_planners/environment/path.sh
+/root/ws_moveit/install/moveit_planners/share/moveit_planners/environment/path.dsv
+/root/ws_moveit/install/moveit_planners/share/moveit_planners/local_setup.bash
+/root/ws_moveit/install/moveit_planners/share/moveit_planners/local_setup.sh
+/root/ws_moveit/install/moveit_planners/share/moveit_planners/local_setup.zsh
+/root/ws_moveit/install/moveit_planners/share/moveit_planners/local_setup.dsv
+/root/ws_moveit/install/moveit_planners/share/moveit_planners/package.dsv
+/root/ws_moveit/install/moveit_planners/share/ament_index/resource_index/packages/moveit_planners
+/root/ws_moveit/install/moveit_planners/share/moveit_planners/cmake/moveit_plannersConfig.cmake
+/root/ws_moveit/install/moveit_planners/share/moveit_planners/cmake/moveit_plannersConfig-version.cmake
+/root/ws_moveit/install/moveit_planners/share/moveit_planners/package.xml

@@ -1,0 +1,32 @@
+{
+	"BUILD_DIR" : "/root/ws_moveit/build/moveit_task_constructor_visualization/motion_planning_tasks/src/motion_planning_tasks_rviz_plugin_autogen",
+	"CMAKE_BINARY_DIR" : "/root/ws_moveit/build/moveit_task_constructor_visualization",
+	"CMAKE_CURRENT_BINARY_DIR" : "/root/ws_moveit/build/moveit_task_constructor_visualization/motion_planning_tasks/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/root/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src",
+	"CMAKE_SOURCE_DIR" : "/root/ws_moveit/src/moveit_task_constructor/visualization",
+	"INCLUDE_DIR" : "/root/ws_moveit/build/moveit_task_constructor_visualization/motion_planning_tasks/src/motion_planning_tasks_rviz_plugin_autogen/include",
+	"INPUTS" : 
+	[
+		"/root/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/tasks.png",
+		"/root/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/updownarrow.png",
+		"/root/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/add.png",
+		"/root/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/generatearrow.png",
+		"/root/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/failed.png",
+		"/root/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/downarrow.png",
+		"/root/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/success.png",
+		"/root/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/connectarrow.png",
+		"/root/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/new-stage.png",
+		"/root/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/settings.png",
+		"/root/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/uparrow.png"
+	],
+	"LOCK_FILE" : "/root/ws_moveit/build/moveit_task_constructor_visualization/motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/root/ws_moveit/build/moveit_task_constructor_visualization/motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/root/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src/resources.qrc",
+	"VERBOSITY" : 0
+}

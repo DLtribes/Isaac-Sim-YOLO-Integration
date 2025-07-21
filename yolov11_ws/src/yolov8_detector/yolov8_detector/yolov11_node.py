@@ -5,9 +5,9 @@ from cv_bridge import CvBridge
 import cv2
 from ultralytics import YOLO
 
-class Yolov8Detector(Node):
+class Yolov11Detector(Node):
     def __init__(self):
-        super().__init__('yolov8_detector')
+        super().__init__('yolov11_detector')
         self.subscription = self.create_subscription(
             Image,
             '/rgb',  # The topic where Isaac Sim publishes camera frames
@@ -15,7 +15,7 @@ class Yolov8Detector(Node):
             10)
         self.publisher = self.create_publisher(Image, '/camera/detections', 10)
         self.bridge = CvBridge()
-        self.model = YOLO('/root/best.pt')  # Path to your YOLOv8 model
+        self.model = YOLO('/root/best.pt')  # Path to your YOLOv11 model
 
     def listener_callback(self, msg):
         # Convert ROS Image message to OpenCV format
@@ -34,7 +34,7 @@ class Yolov8Detector(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    yolov8_detector = Yolov8Detector()
+    yolov8_detector = Yolov11Detector()
     rclpy.spin(yolov8_detector)
     yolov8_detector.destroy_node()
     rclpy.shutdown()

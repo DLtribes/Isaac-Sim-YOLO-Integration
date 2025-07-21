@@ -1,0 +1,4 @@
+cv_bridge
+rclpy
+setuptools
+ultralytics

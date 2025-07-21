@@ -1,0 +1,37 @@
+[0.348s] Invoking command in '/root/ros2_ws/src/yolov8_detector': PYTHONPATH=/root/ros2_ws/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/yolov8_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_detector build --build-base /root/ros2_ws/build/yolov8_detector/build install --record /root/ros2_ws/build/yolov8_detector/install.log --single-version-externally-managed install_data
+[0.470s] running egg_info
+[0.470s] creating ../../build/yolov8_detector/yolov8_detector.egg-info
+[0.470s] writing ../../build/yolov8_detector/yolov8_detector.egg-info/PKG-INFO
+[0.470s] writing dependency_links to ../../build/yolov8_detector/yolov8_detector.egg-info/dependency_links.txt
+[0.470s] writing entry points to ../../build/yolov8_detector/yolov8_detector.egg-info/entry_points.txt
+[0.470s] writing requirements to ../../build/yolov8_detector/yolov8_detector.egg-info/requires.txt
+[0.471s] writing top-level names to ../../build/yolov8_detector/yolov8_detector.egg-info/top_level.txt
+[0.471s] writing manifest file '../../build/yolov8_detector/yolov8_detector.egg-info/SOURCES.txt'
+[0.472s] reading manifest file '../../build/yolov8_detector/yolov8_detector.egg-info/SOURCES.txt'
+[0.472s] writing manifest file '../../build/yolov8_detector/yolov8_detector.egg-info/SOURCES.txt'
+[0.473s] running build
+[0.473s] running build_py
+[0.473s] creating /root/ros2_ws/build/yolov8_detector/build
+[0.473s] creating /root/ros2_ws/build/yolov8_detector/build/lib
+[0.473s] creating /root/ros2_ws/build/yolov8_detector/build/lib/yolov8_detector
+[0.473s] copying yolov8_detector/yolov8_node.py -> /root/ros2_ws/build/yolov8_detector/build/lib/yolov8_detector
+[0.473s] copying yolov8_detector/__init__.py -> /root/ros2_ws/build/yolov8_detector/build/lib/yolov8_detector
+[0.473s] running install
+[0.473s] running install_lib
+[0.474s] creating /root/ros2_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector
+[0.474s] copying /root/ros2_ws/build/yolov8_detector/build/lib/yolov8_detector/yolov8_node.py -> /root/ros2_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector
+[0.474s] copying /root/ros2_ws/build/yolov8_detector/build/lib/yolov8_detector/__init__.py -> /root/ros2_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector
+[0.474s] byte-compiling /root/ros2_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector/yolov8_node.py to yolov8_node.cpython-310.pyc
+[0.474s] byte-compiling /root/ros2_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector/__init__.py to __init__.cpython-310.pyc
+[0.475s] running install_data
+[0.475s] creating /root/ros2_ws/install/yolov8_detector/share/ament_index
+[0.475s] creating /root/ros2_ws/install/yolov8_detector/share/ament_index/resource_index
+[0.475s] creating /root/ros2_ws/install/yolov8_detector/share/ament_index/resource_index/packages
+[0.475s] copying resource/yolov8_detector -> /root/ros2_ws/install/yolov8_detector/share/ament_index/resource_index/packages
+[0.475s] copying package.xml -> /root/ros2_ws/install/yolov8_detector/share/yolov8_detector
+[0.475s] running install_egg_info
+[0.476s] Copying ../../build/yolov8_detector/yolov8_detector.egg-info to /root/ros2_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector-0.0.0-py3.10.egg-info
+[0.476s] running install_scripts
+[0.489s] Installing yolov8_node script to /root/ros2_ws/install/yolov8_detector/lib/yolov8_detector
+[0.489s] writing list of installed files to '/root/ros2_ws/build/yolov8_detector/install.log'
+[0.505s] Invoked command in '/root/ros2_ws/src/yolov8_detector' returned '0': PYTHONPATH=/root/ros2_ws/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/yolov8_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_detector build --build-base /root/ros2_ws/build/yolov8_detector/build install --record /root/ros2_ws/build/yolov8_detector/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+yolov8_node = yolov8_detector.yolov8_node:main
+

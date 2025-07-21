@@ -60,5 +60,3 @@ We designed a scene using a **quad surface** where several **cubes** were placed
 - Smoother, more natural movements  
 - A more stable digital twin experience during pick-and-place operations
 
-```bash
-/simulated_camera/image_raw

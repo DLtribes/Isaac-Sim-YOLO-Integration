@@ -7,31 +7,28 @@ It leverages YOLOv11 for object detection and semantic understanding of waste it
 
 ---
 
-## 🎯Objective
+## Objective
 
 To build a bridge between **perception** and **robotic action** by integrating:
 
-- ✅ **YOLO11s object detection** (vision)
-- ✅ **Isaac Sim robot simulation** (digital twin)
-- ✅ **ROS 2** for communication
-- ✅ **Predefined motion sequences** using joint control
+- **YOLO11s object detection** (vision)
+- **Isaac Sim robot simulation** (digital twin)
+- **ROS 2** for communication
+- **Predefined motion sequences** using joint control
 
 The robot performs **autonomous pick-up actions** only when the YOLO model identifies an object as `"bottle"`.
 
 ---
 
-## 🛠️ Tech Stack Overview
+## Tech Stack Overview
 
 | **Component**          | **Role**                                                                 |
 |------------------------|--------------------------------------------------------------------------|
 | **Isaac Sim**          | Simulates the robot, physics-based environment, camera, and sensors      |
-| **Franka Emika Panda** | Performs pick-and-place operations using joint-level commands            |
 | **YOLOv11**            | Detects plastic bottles from the simulated camera feed                   |
 | **SAM (Segment Anything)** | Segments objects to improve visual understanding and manipulation  |
 | **MoveIt 2**           | Plans and executes robotic arm trajectories for picking and placing      |
 | **ROS 2**              | Acts as middleware to coordinate detection, planning, and control        |
-| **cv_bridge**          | Converts ROS 2 image messages to OpenCV format for YOLO/SAM processing   |
-| **Python**             | Core scripting language for integrating perception, planning, and control|
 | **Rviz2 / Isaac UI**   | Visualizes robot states, environment, and sensor data                     |
 
 ---
